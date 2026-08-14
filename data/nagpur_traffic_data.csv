@@ -1,0 +1,33 @@
+location_id,location_name,latitude,longitude,traffic_volume,congestion_level,average_speed,accident_count,violation_count,illegal_parking_level,road_obstruction,weather_condition,roadwork,public_event,historical_risk,current_police,available_nearby_officers,last_incident
+1,Sitabuldi,21.1458,79.0882,9200,88,18,5,24,82,70,Rain,False,True,91,1,4,Accident
+2,Manish Nagar,21.1050,79.0650,8500,84,20,4,21,76,65,Rain,False,False,86,0,3,Accident
+3,Wardha Road,21.1175,79.0780,8900,86,19,5,22,70,62,Cloudy,True,False,88,1,3,Congestion
+4,Dharampeth,21.1436,79.0720,7600,72,25,3,18,65,45,Clear,False,False,76,1,3,Violation
+5,Sadar,21.1620,79.0850,8100,75,24,4,19,68,50,Clear,False,True,79,0,4,Public Event
+6,Medical Square,21.1360,79.0940,7800,70,26,3,17,61,48,Rain,False,False,73,1,3,Accident
+7,Ajni Square,21.1200,79.0870,7200,67,27,3,16,55,40,Cloudy,False,False,69,1,2,Violation
+8,Chhatrapati Square,21.1250,79.1030,8300,78,23,4,20,72,55,Rain,True,False,81,0,3,Congestion
+9,Airport Road,21.0920,79.0600,6900,62,29,2,14,48,38,Clear,False,False,64,1,4,Violation
+10,Trimurti Nagar,21.1190,79.0470,6500,58,31,2,13,45,35,Clear,False,False,61,1,2,Accident
+11,Pratap Nagar,21.1120,79.0520,7100,64,28,3,15,52,40,Cloudy,False,False,67,0,3,Violation
+12,Ambazari,21.1450,79.0450,5800,49,34,1,11,38,30,Clear,False,False,53,1,2,None
+13,West High Court Road,21.1420,79.0610,6200,55,32,2,12,42,32,Clear,False,False,58,1,3,Violation
+14,Laxmi Nagar,21.1300,79.0640,6800,61,29,2,14,50,35,Rain,False,False,63,0,2,Congestion
+15,Central Avenue,21.1450,79.1000,8700,81,21,4,23,75,60,Rain,False,True,85,1,3,Public Event
+16,Gandhibagh,21.1460,79.1100,7900,73,25,3,19,67,52,Cloudy,False,False,75,0,3,Violation
+17,Mahal,21.1500,79.1050,6400,57,31,2,13,43,34,Clear,False,False,59,1,2,None
+18,Itwari,21.1530,79.1080,8500,79,22,4,21,78,63,Rain,True,False,83,0,4,Congestion
+19,Kalamna,21.1650,79.1500,6100,54,33,2,12,40,30,Clear,False,False,55,1,2,None
+20,Wathoda,21.1400,79.1450,7000,63,29,3,15,55,42,Cloudy,False,False,65,0,3,Violation
+21,Hingna Road,21.1050,79.0200,7400,68,27,3,16,58,44,Rain,True,False,71,1,3,Roadwork
+22,Manewada,21.1050,79.0950,6800,60,30,2,14,47,36,Clear,False,False,62,0,2,Violation
+23,Besa Road,21.0900,79.1000,7600,71,25,3,17,61,45,Cloudy,False,False,74,1,3,Congestion
+24,Nandanvan,21.1450,79.1250,7200,65,28,3,16,54,42,Rain,False,False,68,0,3,Accident
+25,Dighori,21.1150,79.1350,6300,56,32,2,12,41,31,Clear,False,False,57,1,2,None
+26,Pardi,21.1650,79.1350,5900,48,35,1,10,35,27,Clear,False,False,51,1,2,None
+27,Umred Road,21.1300,79.1600,6700,59,30,2,13,46,34,Cloudy,True,False,60,0,2,Roadwork
+28,Jaripatka,21.1750,79.0950,7800,69,26,3,18,60,48,Rain,False,True,72,0,3,Public Event
+29,Kamptee Road,21.1850,79.1100,8200,77,23,4,20,68,55,Rain,False,False,80,1,3,Accident
+30,Gorewada Road,21.1800,79.0450,5500,44,36,1,9,32,25,Clear,False,False,48,1,2,None
+31,Koradi Road,21.2000,79.1000,6000,51,34,1,11,38,29,Cloudy,False,False,54,0,2,Violation
+32,Bharat Nagar,21.1400,79.0650,7500,70,26,3,17,63,47,Rain,False,False,70,0,3,Congestion
