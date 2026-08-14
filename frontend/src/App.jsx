@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000/api/dashboard";
+const API_URL = "https://nagpur-trafficguard-ai.onrender.com/api/dashboard";
 
 function App() {
   const [dashboard, setDashboard] = useState(null);
