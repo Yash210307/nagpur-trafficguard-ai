@@ -32,14 +32,20 @@ function App() {
   };
 
   useEffect(() => {
-    fetchDashboard();
-
-    const interval = setInterval(() => {
-      fetchDashboard();
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
+  fetch("https://nagpur-trafficguard-ai.onrender.com/api/dashboard")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to load dashboard");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      setDashboard(data);
+    })
+    .catch((err) => {
+      setError(err.message);
+    });
+}, []);
 
   const getRiskClass = (level) => {
     return String(level || "LOW").toLowerCase();
